@@ -1,0 +1,285 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>41/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 12 12:07:18 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>439 seconds (439967 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Testcasesdemo.HomeTest.verifyPreviousButtonClick()'><b>verifyPreviousButtonClick</b><br>Test class: Testcasesdemo.HomeTest</td>
+<td></td>
+<td>1</td>
+<td>Testcasesdemo.HomeTest@409bf450</td></tr>
+<tr>
+<td title='Testcasesdemo.LoginTest.verifyLoginWithWrongPassword()'><b>verifyLoginWithWrongPassword</b><br>Test class: Testcasesdemo.LoginTest</td>
+<td></td>
+<td>6</td>
+<td>Testcasesdemo.LoginTest@3c19aaa5</td></tr>
+<tr>
+<td title='Testcasesdemo.ContactTest.testValidMessageOnly()'><b>testValidMessageOnly</b><br>Test class: Testcasesdemo.ContactTest</td>
+<td></td>
+<td>0</td>
+<td>Testcasesdemo.ContactTest@49e53c76</td></tr>
+<tr>
+<td title='Testcasesdemo.ContactTest.testEmptyAllFields()'><b>testEmptyAllFields</b><br>Test class: Testcasesdemo.ContactTest</td>
+<td></td>
+<td>0</td>
+<td>Testcasesdemo.ContactTest@49e53c76</td></tr>
+<tr>
+<td title='Testcasesdemo.Signup_test.verifySuccessfulSignup()'><b>verifySuccessfulSignup</b><br>Test class: Testcasesdemo.Signup_test</td>
+<td></td>
+<td>6</td>
+<td>Testcasesdemo.Signup_test@478190fc</td></tr>
+<tr>
+<td title='Testcasesdemo.AboutTest.testVideoPauseFunctionality()'><b>testVideoPauseFunctionality</b><br>Test class: Testcasesdemo.AboutTest</td>
+<td></td>
+<td>8</td>
+<td>Testcasesdemo.AboutTest@47eaca72</td></tr>
+<tr>
+<td title='Testcasesdemo.HomeTest.testClickFirstProduct()'><b>testClickFirstProduct</b><br>Test class: Testcasesdemo.HomeTest</td>
+<td></td>
+<td>4</td>
+<td>Testcasesdemo.HomeTest@409bf450</td></tr>
+<tr>
+<td title='Testcasesdemo.ContactTest.testVeryLongName()'><b>testVeryLongName</b><br>Test class: Testcasesdemo.ContactTest</td>
+<td></td>
+<td>1</td>
+<td>Testcasesdemo.ContactTest@49e53c76</td></tr>
+<tr>
+<td title='Testcasesdemo.ProductView_Test.TC_Phone_NEG_001_verifyPhonesNotShownWithoutClick()'><b>TC_Phone_NEG_001_verifyPhonesNotShownWithoutClick</b><br>Test class: Testcasesdemo.ProductView_Test</td>
+<td></td>
+<td>0</td>
+<td>Testcasesdemo.ProductView_Test@38d8f54a</td></tr>
+<tr>
+<td title='Testcasesdemo.ContactTest.testValidEmailOnly()'><b>testValidEmailOnly</b><br>Test class: Testcasesdemo.ContactTest</td>
+<td></td>
+<td>0</td>
+<td>Testcasesdemo.ContactTest@49e53c76</td></tr>
+<tr>
+<td title='Testcasesdemo.ContactTest.testInvalidCharactersName()'><b>testInvalidCharactersName</b><br>Test class: Testcasesdemo.ContactTest</td>
+<td></td>
+<td>0</td>
+<td>Testcasesdemo.ContactTest@49e53c76</td></tr>
+<tr>
+<td title='Testcasesdemo.HomeTest.verifyNextButtonClick()'><b>verifyNextButtonClick</b><br>Test class: Testcasesdemo.HomeTest</td>
+<td></td>
+<td>1</td>
+<td>Testcasesdemo.HomeTest@409bf450</td></tr>
+<tr>
+<td title='Testcasesdemo.PlaceOrderTest.testPlaceOrder()'><b>testPlaceOrder</b><br>Test class: Testcasesdemo.PlaceOrderTest<br>Parameters: Rahul, Oman, Muscat, 987654321, 10, 2026</td>
+<td></td>
+<td>3</td>
+<td>Testcasesdemo.PlaceOrderTest@55141def</td></tr>
+<tr>
+<td title='Testcasesdemo.HomeTest.verifySliderImageDisplayed()'><b>verifySliderImageDisplayed</b><br>Test class: Testcasesdemo.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>Testcasesdemo.HomeTest@409bf450</td></tr>
+<tr>
+<td title='Testcasesdemo.ContactTest.testVeryLongMessage()'><b>testVeryLongMessage</b><br>Test class: Testcasesdemo.ContactTest</td>
+<td></td>
+<td>2</td>
+<td>Testcasesdemo.ContactTest@49e53c76</td></tr>
+<tr>
+<td title='Testcasesdemo.SignUpLoginPurchaseFlowTest.testSignUpLoginPurchaseFlow()'><b>testSignUpLoginPurchaseFlow</b><br>Test class: Testcasesdemo.SignUpLoginPurchaseFlowTest</td>
+<td></td>
+<td>116</td>
+<td>Testcasesdemo.SignUpLoginPurchaseFlowTest@55182842</td></tr>
+<tr>
+<td title='Testcasesdemo.HomeTest.scrollTest()'><b>scrollTest</b><br>Test class: Testcasesdemo.HomeTest</td>
+<td></td>
+<td>10</td>
+<td>Testcasesdemo.HomeTest@409bf450</td></tr>
+<tr>
+<td title='Testcasesdemo.Signup_test.verifySignupWithInvalidUsername()'><b>verifySignupWithInvalidUsername</b><br>Test class: Testcasesdemo.Signup_test</td>
+<td></td>
+<td>5</td>
+<td>Testcasesdemo.Signup_test@478190fc</td></tr>
+<tr>
+<td title='Testcasesdemo.LoginTest.verifyLoginWithEmptyFields()'><b>verifyLoginWithEmptyFields</b><br>Test class: Testcasesdemo.LoginTest</td>
+<td></td>
+<td>2</td>
+<td>Testcasesdemo.LoginTest@3c19aaa5</td></tr>
+<tr>
+<td title='Testcasesdemo.ProductView_Test.verifyPhonesCategoryImagesDisplayed()'><b>verifyPhonesCategoryImagesDisplayed</b><br>Test class: Testcasesdemo.ProductView_Test</td>
+<td></td>
+<td>1</td>
+<td>Testcasesdemo.ProductView_Test@38d8f54a</td></tr>
+<tr>
+<td title='Testcasesdemo.ProductView_Test.verifyMonitorsCategoryImagesDisplayed()'><b>verifyMonitorsCategoryImagesDisplayed</b><br>Test class: Testcasesdemo.ProductView_Test</td>
+<td></td>
+<td>2</td>
+<td>Testcasesdemo.ProductView_Test@38d8f54a</td></tr>
+<tr>
+<td title='Testcasesdemo.ContactTest.testValidContactMessage()'><b>testValidContactMessage</b><br>Test class: Testcasesdemo.ContactTest</td>
+<td></td>
+<td>0</td>
+<td>Testcasesdemo.ContactTest@49e53c76</td></tr>
+<tr>
+<td title='Testcasesdemo.ProductView_Test.verifyLaptopsCategoryImagesDisplayed()'><b>verifyLaptopsCategoryImagesDisplayed</b><br>Test class: Testcasesdemo.ProductView_Test</td>
+<td></td>
+<td>2</td>
+<td>Testcasesdemo.ProductView_Test@38d8f54a</td></tr>
+<tr>
+<td title='Testcasesdemo.ContactTest.testInvalidEmailFormat()'><b>testInvalidEmailFormat</b><br>Test class: Testcasesdemo.ContactTest</td>
+<td></td>
+<td>0</td>
+<td>Testcasesdemo.ContactTest@49e53c76</td></tr>
+<tr>
+<td title='Testcasesdemo.Signup_test.verifySignupWithBlankFields()'><b>verifySignupWithBlankFields</b><br>Test class: Testcasesdemo.Signup_test</td>
+<td></td>
+<td>5</td>
+<td>Testcasesdemo.Signup_test@478190fc</td></tr>
+<tr>
+<td title='Testcasesdemo.PlaceOrderTest.testPlaceOrder()'><b>testPlaceOrder</b><br>Test class: Testcasesdemo.PlaceOrderTest<br>Parameters: Anu, India, Kochi, 123456789, 12, 2025</td>
+<td></td>
+<td>3</td>
+<td>Testcasesdemo.PlaceOrderTest@55141def</td></tr>
+<tr>
+<td title='Testcasesdemo.ProductView_Test.TC_Phone_NEG_003_verifyNoDuplicateProductNames()'><b>TC_Phone_NEG_003_verifyNoDuplicateProductNames</b><br>Test class: Testcasesdemo.ProductView_Test</td>
+<td></td>
+<td>2</td>
+<td>Testcasesdemo.ProductView_Test@38d8f54a</td></tr>
+<tr>
+<td title='Testcasesdemo.HomeTest.verifyPaginationButtonsDisplayed()'><b>verifyPaginationButtonsDisplayed</b><br>Test class: Testcasesdemo.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>Testcasesdemo.HomeTest@409bf450</td></tr>
+<tr>
+<td title='Testcasesdemo.AboutTest.testCloseButtonWorks()'><b>testCloseButtonWorks</b><br>Test class: Testcasesdemo.AboutTest</td>
+<td></td>
+<td>3</td>
+<td>Testcasesdemo.AboutTest@47eaca72</td></tr>
+<tr>
+<td title='Testcasesdemo.ContactTest.testCloseButton()'><b>testCloseButton</b><br>Test class: Testcasesdemo.ContactTest</td>
+<td></td>
+<td>0</td>
+<td>Testcasesdemo.ContactTest@49e53c76</td></tr>
+<tr>
+<td title='Testcasesdemo.AboutTest.testVideoDisplayed()'><b>testVideoDisplayed</b><br>Test class: Testcasesdemo.AboutTest</td>
+<td></td>
+<td>25</td>
+<td>Testcasesdemo.AboutTest@47eaca72</td></tr>
+<tr>
+<td title='Testcasesdemo.PlaceOrderTest.testPlaceOrder()'><b>testPlaceOrder</b><br>Test class: Testcasesdemo.PlaceOrderTest<br>Parameters: Ammu, Qatar, Doha, 44444444, 05, 2027</td>
+<td></td>
+<td>3</td>
+<td>Testcasesdemo.PlaceOrderTest@55141def</td></tr>
+<tr>
+<td title='Testcasesdemo.LoginTest.verifyLoginWithEmptyPasswordOnly()'><b>verifyLoginWithEmptyPasswordOnly</b><br>Test class: Testcasesdemo.LoginTest</td>
+<td></td>
+<td>2</td>
+<td>Testcasesdemo.LoginTest@3c19aaa5</td></tr>
+<tr>
+<td title='Testcasesdemo.LoginTest.verifyLoginWithEmptyUsernameOnly()'><b>verifyLoginWithEmptyUsernameOnly</b><br>Test class: Testcasesdemo.LoginTest</td>
+<td></td>
+<td>2</td>
+<td>Testcasesdemo.LoginTest@3c19aaa5</td></tr>
+<tr>
+<td title='Testcasesdemo.ContactTest.testValidNameOnly()'><b>testValidNameOnly</b><br>Test class: Testcasesdemo.ContactTest</td>
+<td></td>
+<td>0</td>
+<td>Testcasesdemo.ContactTest@49e53c76</td></tr>
+<tr>
+<td title='Testcasesdemo.PlaceOrderTest.testPlaceOrder()'><b>testPlaceOrder</b><br>Test class: Testcasesdemo.PlaceOrderTest<br>Parameters: Liya, UAE, Dubai, 55555555, 08, 2024</td>
+<td></td>
+<td>3</td>
+<td>Testcasesdemo.PlaceOrderTest@55141def</td></tr>
+<tr>
+<td title='Testcasesdemo.LoginTest.verifyLoginWithUnregisteredUser()'><b>verifyLoginWithUnregisteredUser</b><br>Test class: Testcasesdemo.LoginTest</td>
+<td></td>
+<td>6</td>
+<td>Testcasesdemo.LoginTest@3c19aaa5</td></tr>
+<tr>
+<td title='Testcasesdemo.ProductView_Test.verifyAllPhoneNamesDisplayed()'><b>verifyAllPhoneNamesDisplayed</b><br>Test class: Testcasesdemo.ProductView_Test</td>
+<td></td>
+<td>2</td>
+<td>Testcasesdemo.ProductView_Test@38d8f54a</td></tr>
+<tr>
+<td title='Testcasesdemo.AboutTest.testOpenAboutModal()'><b>testOpenAboutModal</b><br>Test class: Testcasesdemo.AboutTest</td>
+<td></td>
+<td>2</td>
+<td>Testcasesdemo.AboutTest@47eaca72</td></tr>
+<tr>
+<td title='Testcasesdemo.ProductView_Test.TC_Phone_NEG_002_verifyNoEmptyProductNames()'><b>TC_Phone_NEG_002_verifyNoEmptyProductNames</b><br>Test class: Testcasesdemo.ProductView_Test</td>
+<td></td>
+<td>2</td>
+<td>Testcasesdemo.ProductView_Test@38d8f54a</td></tr>
+<tr>
+<td title='Testcasesdemo.AboutTest.testIframeLoads()'><b>testIframeLoads</b><br>Test class: Testcasesdemo.AboutTest</td>
+<td></td>
+<td>5</td>
+<td>Testcasesdemo.AboutTest@47eaca72</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="Testcasesdemo.Signup_test"/>
+     <class name="Testcasesdemo.LoginTest"/>
+      <class name="utilss.Basetestt"/>
+	     
+	       <class name="Testcasesdemo.HomeTest"/>
+	        <class name="Testcasesdemo.ProductView_Test"/>
+	      <class name="Testcasesdemo.ContactTest"></class>
+	      <class name="Testcasesdemo.AboutTest"></class>
+	      <class name="Testcasesdemo.PlaceOrderTest"></class>
+	       <class name="Testcasesdemo.SignUpLoginPurchaseFlowTest"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
